@@ -98,7 +98,7 @@ The `setInterval` for `showTime` is the only recurring background job. All other
 #### Greeting logic (Requirement 2)
 
 ```
-hour ∈ [5, 11]  → "Good Morning"
+hour ∈ [1, 11]  → "Good Morning"
 hour ∈ [12, 16] → "Good Afternoon"
 hour ∈ [17, 20] → "Good Evening"
 hour ∈ [21,23] ∪ [0,4] → "Good Night"
